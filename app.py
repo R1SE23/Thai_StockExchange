@@ -42,7 +42,7 @@ try:
 
   # Volume Price
   st.write("""
-  ## Volume Price
+  ## Volume 
   """)
   st.line_chart(df.VOLUME)
 
