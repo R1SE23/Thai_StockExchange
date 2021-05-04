@@ -9,7 +9,7 @@ image = Image.open('logo.png')
 st.image(image, width = 250)
 
 st.write("""
-# Thai stock price app
+# Thai Stock Exchange App
 """)
 
 # Create get_stock function to pull stock data
