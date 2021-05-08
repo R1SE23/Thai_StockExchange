@@ -1,5 +1,5 @@
 starfishX==0.155530
-streamlit==0.65.0
+streamlit==0.81.0
 matplotlib==3.3.1
 Pillow==8.2.0
 pandas==1.1.3
