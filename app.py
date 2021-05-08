@@ -13,14 +13,14 @@ import json
 ## Page expands to full width
 st.set_page_config(layout="wide")
 
-image = Image.open('logo.png')
-
-st.image(image, width = 250)
-
 my_page = st.sidebar.radio('Page Navigation', ['Thai Stock Exchange App', 'Cryptocurrency Price App'])
 
-
 if my_page == 'Thai Stock Exchange App':
+  
+  image = Image.open('logo.png')
+
+  st.image(image, width = 250)
+  
   st.write("""
   # Thai Stock Exchange App
   """)
