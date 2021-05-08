@@ -15,11 +15,11 @@ st.image(image, width = 250)
 
 my_page = st.sidebar.radio('Page Navigation', ['Thai Stock Exchange App', 'Cryptocurrency Price App'])
 
+
 if my_page == 'Thai Stock Exchange App':
   st.write("""
-  # Thai stock price app
+  # Thai Stock Exchange App
   """)
-
   # Create get_stock function to pull stock data
   def get_stock(stock, startdate='2016-01-01'):
 
@@ -39,6 +39,7 @@ if my_page == 'Thai Stock Exchange App':
     st.dataframe(df)
 
     st.dataframe(df.describe())
+    
     # Stock symbol
     st.write(stock_symbol)
 
