@@ -8,6 +8,10 @@ from bs4 import BeautifulSoup
 import requests
 import json
 
+#---------------------------------#
+# Page layout
+## Page expands to full width
+st.set_page_config(layout="wide")
 
 image = Image.open('logo.png')
 
@@ -72,13 +76,6 @@ if my_page == 'Thai Stock Exchange App':
     st.error('ไม่พบข้อมูล')
 
 elif my_page == 'Cryptocurrency Price App':
-  
-  #---------------------------------#
-  # Page layout
-  ## Page expands to full width
-  st.set_page_config(layout="wide")
-  #---------------------------------#
-  # Title
 
   image = Image.open('logo2.jpeg')
 
